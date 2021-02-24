@@ -41,7 +41,7 @@ class DealItemFragment(product : Product) : Fragment() {
     Picasso.get().load(product.image_url).into(imageView)
     if (product.sale_price == null) {
       salePriceTxt.visibility = View.GONE
-//      regularPriceTxt.gravity = Gravity.CENTER
+      regularPriceTxt.gravity = Gravity.START
     } else {
       salePriceTxt.visibility = View.VISIBLE
       salePriceTxt.text = product.sale_price.display_string

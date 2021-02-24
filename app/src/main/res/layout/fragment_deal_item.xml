@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/imageView"
             android:textColor="@color/colorPrimary"
-            android:textSize="48sp"
+            android:textSize="40sp"
             tools:text="$8.88"></TextView>
         <TextView
             android:id="@+id/regularTxt"
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/imageView"
             android:layout_toLeftOf="@+id/regularPrice"
-            android:textSize="48sp"
+            android:textSize="40sp"
             android:text="Reg "></TextView>
 
         <TextView
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/imageView"
             android:layout_alignParentRight="true"
-            android:textSize="48sp"
+            android:textSize="40sp"
             tools:text="$17.88"></TextView>
 
         <TextView

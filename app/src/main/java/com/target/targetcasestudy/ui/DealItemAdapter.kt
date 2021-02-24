@@ -10,7 +10,7 @@ import com.squareup.picasso.Picasso
 import com.target.targetcasestudy.R
 import com.target.targetcasestudy.model.Product
 
-class DealItemAdapter(productSelectedListener : ProductSelectedListener, body: List<Product>?) : RecyclerView.Adapter<DealItemViewHolder>() {
+class DealItemAdapter(productSelectedListener: ProductSelectedListener, body: List<Product>?) : RecyclerView.Adapter<DealItemViewHolder>() {
 
    private var productList = body
   private var productSelectedListener = productSelectedListener
