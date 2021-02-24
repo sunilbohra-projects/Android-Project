@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".ui.DealItemFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:scaleType="fitXY"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/salePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:textColor="@color/colorPrimary"
+            android:textSize="48sp"
+            tools:text="$8.88"></TextView>
+        <TextView
+            android:id="@+id/regularTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_toLeftOf="@+id/regularPrice"
+            android:textSize="48sp"
+            android:text="Reg "></TextView>
+
+        <TextView
+            android:id="@+id/regularPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentRight="true"
+            android:textSize="48sp"
+            tools:text="$17.88"></TextView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regularPrice"
+            android:textSize="28sp"
+            tools:text="dsfsfdsfsfdsfsdfdssfsdfdsffsddsfsdfdsffsfs"></TextView>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            tools:text="dsfsfdsfsfdsfsdfdssfsdfdsffsddsfsdfdsffsfs"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/addToList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description"
+                android:layout_weight="0.5"
+                android:background="@color/mdtp_neutral_pressed"
+                android:gravity="center"
+                android:padding="30dp"
+                android:text="@string/addToList"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/addToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description"
+                android:layout_alignParentRight="true"
+                android:layout_weight="0.5"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="30dp"
+                android:text="@string/addToCart"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"></TextView>
+        </LinearLayout>
+      </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
