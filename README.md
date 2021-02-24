@@ -10,18 +10,18 @@ pretty rough. It is your job to turn this app into something useful!
 
 **Requirements:**
 1. Fix up the deals list to match the mockups shown in mockups/DealsList.png.
-  Fonts, specific colors, and specific margins are not important, but you should aim to to get close.
+  Fonts, specific colors, and specific margins are not important, but you should aim to to get close. - **Done attached screenshot for your reference.**
 
 2. Present a new view that displays deal details when a deal is clicked on the list screen.
-  Use the mockups shown in mockups/DealsDetails.png. Again, specific sizing and other design details
+  Use the mockups shown in mockups/DealsDetails.png. Again, specific sizing and other design details - **Done attached screenshot for your reference.**
   are not important.
 
-3. The deals are currently hardcoded. Use the API at https://api.target.com/mobile_case_study_deals/v1
+3. The deals are currently hardcoded. Use the API at https://api.target.com/mobile_case_study_deals/v1 -  **Done attached screenshot for your reference.**
   to grab the real deals to display in the app.
 
 4. Update PaymentDialogFragment to perform credit card number validation:
      - See Validators.kt under the `data` package for instructions on performing the validation,
-       including  help on getting fake credit card numbers. You do *not* need to enter real credit
+       including  help on getting fake credit card numbers. You do *not* need to enter real credit - **Done attached screenshot for your reference.**
        card data.
 
        You are welcome to make any changes to `Validators.kt` as you see fit within the guidelines
